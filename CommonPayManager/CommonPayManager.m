@@ -165,22 +165,6 @@ typedef void(^CallBackBlock)();
             payFail([CommonPayFactory GenErrorCode:PFCReturnUnknow message:strMessage]);
         }
         
-        /*
-         {
-         memo = "";
-         result = "";
-         resultStatus = 6001;
-         }
-         
-         
-         reslut = {
-         memo = "";
-         result = "partner=\"2088021469075741\"&seller_id=\"qichepay@sina.cn\"&out_trade_no=\"045U6F27L3IA9ND\"&subject=\"\U6d4b\U8bd5\U6807\U9898\"&body=\"\U6211\U662f\U6d4b\U8bd5\U6570\U636e\"&total_fee=\"0.01\"&notify_url=\"http://www.xxx.com\"&service=\"mobile.securitypay.pay\"&payment_type=\"1\"&_input_charset=\"utf-8\"&it_b_pay=\"30m\"&show_url=\"m.alipay.com\"&success=\"true\"&sign_type=\"RSA\"&sign=\"WrcfWe8nReFoY46Itg0D5aW98YZhryHPDFc6QSN34dfrldFmHkpo62UCEB87UROQoNmLe1BeGqmhXxGzwiAH/dR/7ugBLRRh4suGh0u8t66y/1zvmpR2ltXHCWWb8Kh2XZqbHcobBib9pX3RJT60M0IUbC5gqzHk7N1fs2odsnI=\"";
-         resultStatus = 9000;
-         }
-         */
-        
-        
     }];
 }
 
